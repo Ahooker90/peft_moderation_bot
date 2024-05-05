@@ -31,3 +31,8 @@ LLaVA models have shown great performance and generalization across many task. I
 
 
 ![Data generation pipeline was created by leveraging the stronger LLaVA 1.6 34B parameter model to create question answer (QA) pairs. The QA pairs were used to fine-tune a LLaVA 1.5 7B parameter model - proposed to be the moderation bot.](assets/Parameter%20Efficient%20Moderation%20Bot.png)
+
+
+**Results**
+
+The results of the inital fine-tuning showed deterioration of performance and strong hallucenations. This was expected due to the number of data points in our training data (n=286). As we adopt more characters into the unity scene and increase the number of interactions depicted in the dataset, our hypothosis is there will be significant improvement in the performance of the lower parameter models for making inference on interactions in virtual space.
