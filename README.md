@@ -20,7 +20,8 @@ to perform instruction fine-tuning on the Alpaca instruction datset (currently a
 This repo serves as a jumping off point to train low-parameter models for detecting inappropriate actions. More specfically, interactions that occur in virtual space. As the proliferation of virtual reality (VR) technology continues to increase, there is a signifant concern that these technologies will become disproportionatly weaponized against at-risk populations, such as children. Therefore it is imperitive to counter act sexual harassment in children's VR games. Examples of this include, groping, sexually charged discussion from adults, and virtual rape. The focus of this exploratory project is to develop a submodle for the detection of virtual groping with a simple taxonomy that can be extended to low-parameters models to aid in this technologies adoption.
 
 Here is potentially how the bot could be used in near-real-time to evaluated interactions during game play:
-![Data collection was performed with a constant radius equal to 5meters in virtual space. The data collection bot performed a circular trajectory.](assets/Media1.png)
+[![Data collection was performed with a constant radius equal to 5 meters in virtual space. The data collection bot performed a circular trajectory.]](assets/Media1.mp4)
+
 
 **Dataset Generation**
 ![Data collection was performed with a constant radius equal to 5meters in virtual space. The data collection bot performed a circular trajectory.](assets/bot_collection.png)
